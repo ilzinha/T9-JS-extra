@@ -7,3 +7,9 @@ Em seguida, mostre no console.log*/
 
 listaAfazeres.shift()
 console.log(listaAfazeres)
+
+// ouuuu
+listaAfazeres.shift();
+//listaAfazeres.splice(1,3) ;
+
+console.log(listaAfazeres);

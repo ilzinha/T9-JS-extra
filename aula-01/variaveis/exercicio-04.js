@@ -11,3 +11,10 @@ Armazene o nome chamado Letícia em uma variável e use a notação de colchete
  let nome = 'Letícia'
 
  console.log(nome[0])
+
+ //ouuu
+ 
+let nomeColaboradora = "Letícia";
+
+console.log('Primeira letra é com colchetes:', nomeColaboradora[0]);
+console.log('Primeira letra é com charAt:', nomeColaboradora.charAt(0));
