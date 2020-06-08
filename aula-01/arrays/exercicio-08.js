@@ -1,5 +1,5 @@
 /*Dado um array de objetos.
-*/
+ */
 
 const tarefas = [{
   passear: false,
@@ -12,3 +12,7 @@ const tarefas = [{
 }];
 
 /* Acesse a propriedade do objeto do terceiro item*/
+
+tarefas.map( (item) => {
+  console.log(item.reuniao)
+})
