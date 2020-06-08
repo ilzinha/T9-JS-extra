@@ -13,3 +13,7 @@ A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos 
 nº 1293.
 
 O retorno deverá ser template string*/
+
+let pegaDados = (nome, sobrenome) => {
+  return `${nome} ${sobrenome} mora em ${endereco.cidade} / ${endereco.uf}, no bairro ${endereco.bairro}, na rua ${endereco.rua} com nº ${endereco.numero}`
+}
