@@ -8,3 +8,8 @@ Chame a função três vezes com diferentes conjuntos de valores.
 */
 
 
+let dogAge = (age) => {
+    const idade = age * 7;
+    return idade;
+}
+
