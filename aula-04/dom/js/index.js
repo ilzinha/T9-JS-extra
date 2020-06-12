@@ -1,4 +1,5 @@
 const formulario = document.querySelector(".lista__form");
+<<<<<<< HEAD
 const divSoma = document.querySelector('.extrato')
 const linhaSoma = document.createElement(('hr'))
 const paragValor = document.createElement('p')
@@ -6,6 +7,9 @@ const paragValor = document.createElement('p')
 
 
 
+=======
+const tabela = document.querySelector(".extrato__table");
+>>>>>>> 8b37ec65e4e28d4f2805391ef53757df127a67da
 
 formulario.addEventListener("submit", function (evento) {
   evento.preventDefault();
